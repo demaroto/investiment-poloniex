@@ -1,0 +1,498 @@
+.space{
+
+	margin-top: 30px;
+
+
+
+}
+
+td
+
+{
+
+text-align: center;
+
+height: 100%;
+
+}
+#res{
+float: left;
+width: 100%;	
+text-align: center;
+}
+#resultado
+
+{
+
+	margin: 5px auto;
+
+	color: #999;
+
+}
+.input-text, .input-text-list{
+	color:#333;
+
+}
+.input-text[name=delay]{
+	width: 5em;
+}
+.input-text[name=limit]{
+	width: 10em;
+}
+.input-text[name=pago]{
+	width: 10em;
+}
+.input-text-list[name=taxa8],.input-text-list[name="taxa7"],.input-text-list[name="taxa6"],.input-text-list[name="taxa5"],.input-text-list[name="taxa4"],.input-text-list[name="taxa3"],.input-text-list[name="taxa2"],.input-text-list[name="taxa1"]{
+	width: 10em;
+}
+.texto{
+
+	
+
+	margin-top: 0px;
+
+	color: #FFF;
+
+	padding-left: 6px;
+
+	padding-right: 6px;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	vertical-align: middle;
+
+	height: 50px;
+
+	text-align: center;
+
+	background-color: #333;
+
+
+
+}
+
+.select_pair{
+
+	cursor: pointer;
+
+	width: auto;
+
+}
+
+.select_pair:hover, .favorite:hover{
+
+	color: #FFF;
+
+	 text-shadow: 3px 3px 1px #000;
+
+}
+
+.select_moeda:hover{
+
+	background-color: #23604e; 
+
+	color: #FFF;
+
+	cursor: pointer;
+
+}
+
+.positive{
+
+	color: lime;
+
+}
+
+.negative{
+
+	color: red;
+
+}
+
+#sort_price{
+
+	cursor: pointer;
+
+}
+
+#balances{
+
+	font-size: 12px;
+
+	width: 100%;
+
+}
+
+.balances_favorites{
+
+	background-color: #14382d;
+
+
+
+}
+
+table.table-list{
+
+	color:#000;
+	background-color: #666;
+	width: 100%;
+	border-style: none;
+	padding: 0px;
+	color:#FFF;
+	text-shadow: 1px 2px #000;
+}
+
+thead, tbody, tr {
+
+    display:table;
+
+    width:100%;
+
+    table-layout:fixed;/* even columns width , fix width of table too*/
+
+}
+
+tr.borderNew{
+
+	border: 1px solid #14382d;
+
+}
+
+thead {
+
+    width: calc( 100% - 1em )/* scrollbar is average 1em/16px width, remove it from thead width */
+
+}
+
+.overflowTable{
+
+	display: block;
+
+	height: 400px;
+
+
+
+	overflow: auto;
+
+
+
+}
+
+
+
+.overflowFavorite{
+
+	display: block;
+
+	height: auto;
+
+
+
+	overflow: auto;
+
+
+
+}
+
+.titulos{
+
+	margin-right: 2px;
+
+	text-align: center;
+
+	font-size: 14px;
+
+	color: #666;
+
+	padding-left: 3px;
+
+	padding-right: 3px;
+
+	border: 1px solid #333;
+
+	cursor: pointer;
+
+	height: 
+
+
+
+}
+
+.alinharTexto{
+
+	margin-top: 2px;
+
+	color: #FFF;
+
+	padding-left: 6px;
+
+	padding-right: 6px;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	vertical-align: middle;
+
+	height: 50px;
+
+}
+
+.alinharTexto:hover{
+
+	background-color: darkorange;
+
+	color: #000;
+
+}
+
+.botao{
+
+	width: 20px;
+
+}
+
+.success{
+
+	text-align: center;
+
+	width: 100%;
+
+	padding-left: 4px;
+
+	padding-right: 4px;
+
+	background-color: green;
+
+	color: #FFF;
+
+	border: 1px solid darkgreen;
+
+}
+
+.danger{
+
+	text-align: center;
+
+	width: 100%;
+
+	padding-left: 4px;
+
+	padding-right: 4px;
+
+	background-color: darkred;
+
+	color: #FFF;
+
+	border: 1px solid red;
+
+}
+
+.num{
+
+	color: black;
+
+	background-color: orange;	
+
+	border: 1px solid #666;
+
+	float: right;
+
+	text-align: center;
+
+
+
+}
+
+td.favorite, td.remfavorite{
+
+	cursor: pointer;
+
+}
+
+
+
+#navTitle{
+
+	height: 50px;
+
+}
+
+.navImg{
+	width: 200px;
+	margin-top: 5px;
+
+}
+
+body, .bgColor{
+
+color: #FFF;
+
+background-color: #23604e;
+
+}
+
+
+
+.pan-login{
+
+height: 100%;
+
+}
+
+.bgColor2{
+
+background-color: #1a4035;
+
+}
+
+.data_balances{
+
+	background-color: #1b4b3d;
+
+	color: yellow;
+
+}
+
+
+
+#myModal{
+
+	color: #000;
+
+}
+
+.colorBlack{
+
+	color: #222;
+
+}
+
+#find_moeda, .input-group-addon, .inputText {
+
+	background-color: #23604e;
+
+	color: #FFF;
+
+
+
+}
+
+#sort_volume{
+
+	text-align: center;
+
+}
+
+.exit{
+
+	margin-top: 10px;
+
+	float:right;
+
+}
+
+#result-login{
+
+	display: none;
+
+}
+
+#result{
+
+	display: none;
+
+}
+
+#mytabs{
+
+	background-color: #222;
+
+}
+
+#tab-content{
+
+	background-color: #1b4b3d;
+
+}
+
+.titleEngine{
+
+	padding-top: 15px;
+
+	width: 200px;
+
+	color: #666;
+
+	vertical-align: middle;
+
+}
+
+.container{
+
+	margin-top: 30px;
+
+}
+
+.popover-content{
+
+	color:#222;
+
+}
+
+#direitos{
+
+	cursor: pointer;
+
+}
+
+
+.tab-config{
+	width: 90%;
+	float: right;
+	display: none;
+	position: absolute;
+	top: 5px;
+	z-index: 999;
+	text-align: left;
+	background-color: #333;
+	color:#00F5FF;
+	text-shadow: 2px 2px #000;
+	font-size: 12px;
+}
+
+
+
+::-webkit-scrollbar{
+
+  width: 6px;
+
+    background: #23604e;
+
+}
+
+::-webkit-scrollbar-button       { /* 2 */ }
+
+::-webkit-scrollbar-track{
+
+
+
+}
+
+::-webkit-scrollbar-track-piece  { /* 4 */ }
+
+::-webkit-scrollbar-thumb{
+
+    background-color: #222;
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+
+}
+
+::-webkit-scrollbar-corner       {  /*6 */}
+
+::-webkit-resizer  

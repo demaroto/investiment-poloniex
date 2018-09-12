@@ -1,0 +1,87 @@
+CREATE DATABASE  IF NOT EXISTS `poloniex-new` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `poloniex-new`;
+-- MySQL dump 10.13  Distrib 5.6.30, for debian-linux-gnu (x86_64)
+--
+-- Host: localhost    Database: poloniex-new
+-- ------------------------------------------------------
+-- Server version	5.6.30-1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `configuracoes`
+--
+
+LOCK TABLES `configuracoes` WRITE;
+/*!40000 ALTER TABLE `configuracoes` DISABLE KEYS */;
+INSERT INTO `configuracoes` VALUES (8,'BTC_ETH',0.0001,0.0001,'0.001',0,0,0,0,0,1,'false',0,'false');
+/*!40000 ALTER TABLE `configuracoes` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `favorites`
+--
+
+LOCK TABLES `favorites` WRITE;
+/*!40000 ALTER TABLE `favorites` DISABLE KEYS */;
+/*!40000 ALTER TABLE `favorites` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `fibonacci`
+--
+
+LOCK TABLES `fibonacci` WRITE;
+/*!40000 ALTER TABLE `fibonacci` DISABLE KEYS */;
+/*!40000 ALTER TABLE `fibonacci` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `ordens`
+--
+
+LOCK TABLES `ordens` WRITE;
+/*!40000 ALTER TABLE `ordens` DISABLE KEYS */;
+INSERT INTO `ordens` VALUES (4,'0','buy',0,'comprando',0.079,0.08,0.081,0,1,'04:34:39.000000');
+/*!40000 ALTER TABLE `ordens` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `taxas`
+--
+
+LOCK TABLES `taxas` WRITE;
+/*!40000 ALTER TABLE `taxas` DISABLE KEYS */;
+INSERT INTO `taxas` VALUES (6,0.00000001,0.00000001,0.00000001,0.00000001,0.00000001,0.00000001,0.00000001,0.00000001,1);
+/*!40000 ALTER TABLE `taxas` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `usuarios`
+--
+
+LOCK TABLES `usuarios` WRITE;
+/*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
+INSERT INTO `usuarios` VALUES (1,'demaroto69@gmail.com','6dec214568aec1a4b325fcf6ccafad6e','','','online');
+/*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-08-12 17:15:33
